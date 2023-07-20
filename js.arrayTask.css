@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(blue, green, yellow);
+}
+
+
+table{
+        border-spacing: 0 !important;
+        margin: auto;
+        width: 30%;
+        background-color: #dddddd;
+        border-radius: 10px;
+        border: 2px solid #0d1a05;
+    
+}
+td,
+th {
+    border: 1px solid #0d1a05;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+    
+}
+tr :nth-child(1){
+    color:red;
+}
+tr :nth-child(2) {
+    color: blue;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 44px;
+    margin-top: 20px;
+}
